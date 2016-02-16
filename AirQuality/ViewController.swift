@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var zipLbl: UITextField!
+    @IBOutlet weak var distanceTxt: UITextField!
+    @IBOutlet weak var dateTxt: UITextField!
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +27,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    @IBOutlet weak var getQualityBtn: UIButton!
 
+    
+    
+    
 }
 

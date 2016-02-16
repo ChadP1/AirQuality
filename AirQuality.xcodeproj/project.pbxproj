@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3486C7E7CE45373F5107847E /* Pods_AirQuality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014977843C13C14C3A4280F5 /* Pods_AirQuality.framework */; };
 		6CF571BE1C7388FB00E78D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF571BD1C7388FB00E78D71 /* AppDelegate.swift */; };
 		6CF571C01C7388FB00E78D71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF571BF1C7388FB00E78D71 /* ViewController.swift */; };
 		6CF571C31C7388FB00E78D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF571C11C7388FB00E78D71 /* Main.storyboard */; };
 		6CF571C51C7388FB00E78D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF571C41C7388FB00E78D71 /* Assets.xcassets */; };
 		6CF571C81C7388FB00E78D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF571C61C7388FB00E78D71 /* LaunchScreen.storyboard */; };
+		6CF571D01C73909700E78D71 /* qualitySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF571CF1C73909700E78D71 /* qualitySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		014977843C13C14C3A4280F5 /* Pods_AirQuality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirQuality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B13F1DEF89B9E29F668701A /* Pods-AirQuality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirQuality.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirQuality/Pods-AirQuality.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF571BA1C7388FB00E78D71 /* AirQuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF571BD1C7388FB00E78D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CF571BF1C7388FB00E78D71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		6CF571C41C7388FB00E78D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CF571C71C7388FB00E78D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CF571C91C7388FB00E78D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF571CF1C73909700E78D71 /* qualitySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qualitySearch.swift; sourceTree = "<group>"; };
+		B054ADF6F65776FCFA8E69FE /* Pods-AirQuality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirQuality.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirQuality/Pods-AirQuality.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3486C7E7CE45373F5107847E /* Pods_AirQuality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E6948BF02F9C19444757DF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B13F1DEF89B9E29F668701A /* Pods-AirQuality.debug.xcconfig */,
+				B054ADF6F65776FCFA8E69FE /* Pods-AirQuality.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6CF571B11C7388FB00E78D71 = {
 			isa = PBXGroup;
 			children = (
 				6CF571BC1C7388FB00E78D71 /* AirQuality */,
 				6CF571BB1C7388FB00E78D71 /* Products */,
+				5E6948BF02F9C19444757DF9 /* Pods */,
+				94ACD24C39470C4931A8B0CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,17 @@
 				6CF571C41C7388FB00E78D71 /* Assets.xcassets */,
 				6CF571C61C7388FB00E78D71 /* LaunchScreen.storyboard */,
 				6CF571C91C7388FB00E78D71 /* Info.plist */,
+				6CF571CF1C73909700E78D71 /* qualitySearch.swift */,
 			);
 			path = AirQuality;
+			sourceTree = "<group>";
+		};
+		94ACD24C39470C4931A8B0CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014977843C13C14C3A4280F5 /* Pods_AirQuality.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CF571CC1C7388FB00E78D71 /* Build configuration list for PBXNativeTarget "AirQuality" */;
 			buildPhases = (
+				528CCB325B97B878028FC7EE /* Check Pods Manifest.lock */,
 				6CF571B61C7388FB00E78D71 /* Sources */,
 				6CF571B71C7388FB00E78D71 /* Frameworks */,
 				6CF571B81C7388FB00E78D71 /* Resources */,
+				CD627CA453948066D5B2E6F2 /* Embed Pods Frameworks */,
+				FD4DD47010814E25677DE525 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +160,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		528CCB325B97B878028FC7EE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD627CA453948066D5B2E6F2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirQuality/Pods-AirQuality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4DD47010814E25677DE525 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirQuality/Pods-AirQuality-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CF571B61C7388FB00E78D71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +215,7 @@
 			files = (
 				6CF571C01C7388FB00E78D71 /* ViewController.swift in Sources */,
 				6CF571BE1C7388FB00E78D71 /* AppDelegate.swift in Sources */,
+				6CF571D01C73909700E78D71 /* qualitySearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +326,7 @@
 		};
 		6CF571CD1C7388FB00E78D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B13F1DEF89B9E29F668701A /* Pods-AirQuality.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AirQuality/Info.plist;
@@ -258,6 +338,7 @@
 		};
 		6CF571CE1C7388FB00E78D71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B054ADF6F65776FCFA8E69FE /* Pods-AirQuality.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AirQuality/Info.plist;
@@ -286,6 +367,7 @@
 				6CF571CE1C7388FB00E78D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
